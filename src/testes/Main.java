@@ -9,8 +9,8 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         for (int i = 1; i <= 15; i++) {
-            //Esse endereço é o meu, troque para o endereço onde vocês guardaram os arquivos contendo os números
-            String fileName = "C:\\Users\\pepeu\\Dropbox\\My PC (LAPTOP-0C8UCVS0)\\Downloads\\Random\\Random\\random_numbers_" + (i * 10000) + ".txt";
+            //Esse endereço é o meu, troque para o endereço onde vocês guardaram os arquivos contendo os números.
+            String fileName = "";
             List<int[]> numbersList = FileReader.readNumbersFromFile(fileName);
 
             int[][] copiedNumbers = copyList(numbersList);
